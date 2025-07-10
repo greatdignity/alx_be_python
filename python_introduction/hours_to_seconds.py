@@ -1,4 +1,6 @@
+# Converting hours to seconds
+
 hours = 2
-one_hour = 3600
-seconds = hours * one_hour
+seconds_in_hour = 3600
+seconds = seconds_in_hour * hours
 print(f'{hours} hour(s) is {seconds} seconds.')
