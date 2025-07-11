@@ -1,7 +1,7 @@
 hours = 2
 one_munite = 60
 one_hour = 60
-seconds_per_hour = one_munite *one_hour
+seconds_per_hour = 3600
 
 
 seconds = seconds_per_hour * hours
