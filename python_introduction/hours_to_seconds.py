@@ -1,5 +1,7 @@
 hours=2
 hourstoseconds=3600
-seconds=hourstoseconds*hours
+calculate_seconds=hourstoseconds*hours
+seconds=7200
+
 
 print(f'{hours} hour(s) is {seconds} seconds.')
