@@ -1,7 +1,7 @@
 hours=2
 hourstoseconds=3600
-calculate_seconds=hourstoseconds*hours
-seconds=3600*2
+
+seconds=hourstoseconds*hours
 
 
-print(f'{hours} hour(s) is {seconds} seconds.')
+print(f'{hours} hours is {seconds} seconds.')
