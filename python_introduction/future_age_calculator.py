@@ -1,4 +1,4 @@
-age = input('How old are you?: ')
+age = input('How old are you?')
 current_year = 2023
 birth_year = current_year - int(age)
 future_age = int(age) + 27
