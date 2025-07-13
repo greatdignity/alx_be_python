@@ -4,4 +4,4 @@ hours=2
 r=hours_to_seconds(2)
 seconds=r
 
-print(f'{hours} hours is {seconds} seconds.')
+print(f'{hours} hour(s) is {seconds} seconds.')
