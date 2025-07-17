@@ -1,17 +1,17 @@
 num1 = int(input('Enter the first number: '))
 num2 = int(input('Enter the second number: '))
-operations = input('Choose the operation (+, -, *, /): ')
+operations = input("Choose the operation (+, -, *, /): ")
 match operations:
-    case "+":
+    case "Addition":
         result = int(num1) + int(num2)
         print(f'The result is: {result}.')
-    case "*":
+    case "Multiplication":
         result = int(num1) * int(num2)
         print(f'The result is: {result}.')
-    case "-":
+    case "Subtraction":
         result = int(num1) - int(num2)
         print(f'The result is: {result}.')
-    case "/":
+    case "Division":
         if num2 != 0:
             result = int(num1) / int(num2)
             print(f'The result is: {result}.')
