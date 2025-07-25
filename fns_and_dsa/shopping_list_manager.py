@@ -32,7 +32,7 @@ def main():
     shopping_list = []
     
     while True:
-        show_menu()
+        display_menu()
         choice = input("Choose an option (1-4): ").strip()
 
         if choice == '1':
