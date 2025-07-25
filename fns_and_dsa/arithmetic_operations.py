@@ -12,5 +12,3 @@ def perform_operation(num1:float, num2: float, operation :str):
             return num1/num2
     else:
         return "Error: Invalid operation"
-
-print(perform_operation(12.00, 3.00, 'divide'))
