@@ -10,6 +10,6 @@ def safe_divide(numerator,denominator):
         return "Error: Please provide numeric values only."
 
 
-print(safe_divide(10,2))
+print(safe_divide(10,5))
 print(safe_divide(10,0))
-print(safe_divide("seven","2"))
+print(safe_divide("ten",2))
