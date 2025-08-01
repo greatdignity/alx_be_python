@@ -9,4 +9,3 @@ def safe_divide(numerator, denominator):
     except ValueError:
         return "Error: Please enter numeric values only."
 
-print(safe_divide(10, 5))
